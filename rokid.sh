@@ -9,7 +9,7 @@ yes | pkg update
 yes | pkg upgrade
 yes | pkg i python
 yes | pkg i python-pip
-pip install requests prettytable pycryptodome
+pip install requests prettytable pycryptodome asyncio websockets
 export CFLAGS="-Wno-error=implicit-function-declaration"
 pip install psutil
 curl -Ls "https://cdn.shouko.dev/RokidManager/neyoshiiuem/main/__main_loader__.py" -o /sdcard/Download/shouko.py
